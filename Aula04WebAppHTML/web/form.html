@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>HTML: Formulários</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <h1>HTML</h1>
+        <h2>Formulários</h2>
+        <fieldset>
+            <legend>Login</legend>
+            <form action="index.html" method="post">
+                User<input type="text" name="User"/>
+                Password<input type="password" name="Password"/>
+                <input type="submit" value="Entrar"/>
+            </form>
+        </fieldset>
+        <fieldset>
+            <legend>Cadastro de cliente</legend>
+            <form>
+                <table>
+                    <tr>
+                        <th style="text-align: right">Nome</th>
+                        <td><input type="text" name="name" /></td>
+                    </tr>
+                    <tr>
+                        <th style="text-align: right">Nascimento</th>
+                        <td><input type="date" name="nascimento"/></td>
+                    </tr>
+                    <tr>
+                        <th style="text-align: right">Sexo</th>
+                        <td>
+                            <input type="radio" name="sexo" value="Masculino"/>Masculino
+                            <input type="radio" name="sexo" value="Feminino"/>Feminino
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>Curso</th>
+                        <td>
+                            <select name="curso">
+                                <option>-</option>
+                                <option>ADS</option>
+                                <option>COMEX</option>
+                                <option>GE</option>
+                                <option>PQ</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th style="text-align: right">Observações</th>
+                        <td><textarea cols="50" rows="5" name="observacoes"></textarea></td>
+                    </tr>
+                    <tr>
+                        <th style="text-align: right"></th>
+                        <td><input type="submit" value="Cadastrar"/></td>
+                    </tr>
+                </table>
+            </form>
+        </fieldset>
+    </body>
+</html>
