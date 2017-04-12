@@ -1,0 +1,7 @@
+<%@ page pageEncoding="UTF-8" %>
+<div>
+    Menu: {<a href="home.jsp">HOME</a>}
+    , {<a href="random.jsp">NÚMEROS ALEATÓRIOS</a>}
+    , {<a href="tabuada.jsp">TABUADA</a>}
+</div>
+<hr/>

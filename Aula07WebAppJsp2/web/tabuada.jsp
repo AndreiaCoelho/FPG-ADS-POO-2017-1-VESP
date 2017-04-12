@@ -12,7 +12,7 @@
         <title>JavaEE: JSP</title>
     </head>
     <body>
-        <h3><a href="home.jsp">Voltar</a></h3>
+        <%@include file="WEB-INF/jspf/menu.jspf"%>
         <h1>JavaEE: JSP</h1>
         <h2>Números aleatórios</h2>
         <%

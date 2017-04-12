@@ -1,9 +1,3 @@
-<%-- 
-    Document   : random
-    Created on : 12/04/2017, 15:40:21
-    Author     : RicardoPupo
---%>
-
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
@@ -12,7 +6,7 @@
         <title>JavaEE: JSP</title>
     </head>
     <body>
-        <h3><a href="home.jsp">Voltar</a></h3>
+        <%@include file="WEB-INF/jspf/menu.jspf"%>
         <h1>JavaEE: JSP</h1>
         <h2>Números aleatórios</h2>
         <%
